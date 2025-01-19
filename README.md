@@ -1,8 +1,8 @@
-# Password Manager with Personalized PIN
+# Password Manager with Personalized PIN Web App
 
 ## Overview
 
-This password manager allows users to securely store and retrieve their website login credentials using a personalized PIN. The PIN is set during the initial setup and is used for accessing saved passwords. This provides an added layer of security, ensuring that only the person who knows the PIN can access the stored data.
+This password manager web app allows users to securely store and retrieve their website login credentials using a personalized PIN. The PIN is set during the initial setup and is used for accessing saved passwords. This provides an added layer of security, ensuring that only the person who knows the PIN can access the stored data.
 
 ## Features
 
