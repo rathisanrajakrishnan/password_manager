@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main-style.css">
+    <script src="/script.js" defer></script>
+    <title>Password Manager</title>
+</head>  
+
+<body>
+    <main>
+
+        <header>
+            <h1><span class="big">Password Manager</span></h1>
+        </header>
+
+        <section id="passwordSection">
+            <header>
+                <h2>Save Password</h2>
+            </header>
+            <div class="container">
+                <form id="passwordForm">
+                    <label for="website">Website:</label>
+                    <input type="text" id="website" required>
+                    
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+
+                    <button type="button" onclick="savePassword()">Save Password</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="storedPasswordsSection" class="hidden">
+            <header>
+                <h2>Stored Passwords</h2>
+                <label for="pin">Enter PIN to reveal passwords:</label>
+                <input type="password" id="pin">
+                <button type="button" onclick="checkPin()">Enter</button>
+            </header>
+            <ul id="passwordList"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
